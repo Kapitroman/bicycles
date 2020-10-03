@@ -12,6 +12,55 @@
   <link rel="preload" href="fonts/opensansbold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
-
+  <div style="display:none">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+  <header class="page-header">
+    <div class="page-header__wrap-total">
+      <nav class="page-header__main-nav main-nav main-nav--opened main-nav--nojs">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__menu-list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#about">О нас
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#types">Виды велосипедов
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#video">Видео про велосипеды
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#contacts">Контакты
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="page-header__action-wrap">
+        <div class="page-header__slogan-wrap">
+          <a class="page-header__logo"><img  src="img/logo.svg" width="68" height="20" alt="логотип"></a>
+          <div class="page-header__slogan">Мы продаем велосипеды</div>
+          <div class="page-header__text">Наш магазин отбирает только самые лучшие велосипеды для продажи</div>
+        </div>
+        <div class="page-header__form">
+          <form action="#" method="get">
+            <p>Заполните поля ниже и мы подберем велосипед Вашей мечты</p>
+            <input type="text" placeholder="Введите Ваше Имя" name="name" id="name" required>
+            <label class="visually-hidden" for="name">Имя</label>
+            <input type="tel" placeholder="Введите Ваш номер телефона" name="phone" id="phone" pattern="[\+0-9\s]{10,16}" required>
+            <label class="visually-hidden" for="phone">Телефон</label>
+            <button type="submit">Подобрать велосипед мечты</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script src="js/script.js"></script>
 </body>
 </html>

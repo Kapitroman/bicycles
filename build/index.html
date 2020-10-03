@@ -1,13 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Стартовый шаблон</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Велосипеды</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/opensans.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensanslight.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensanssemibold.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font" type="font/woff2" crossorigin="">
 </head>
 <body>
-  <h1>Добро пожаловать в Лигу А.</h1>
+  <div style="display:none">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
+<clipPath id="clip0">
+<rect width="12" height="7.4" fill="white" transform="translate(9 18) rotate(-90)"></rect>
+</clipPath>
+</defs><symbol id="icon-arrow" viewBox="0 0 25 25">
+<g clip-path="url(#clip0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9 7.4L13.6 12L9 16.6L10.4 18L16.4 12L10.4 6L9 7.4Z" fill="#2C2E3F" fill-opacity="0.5"></path>
+</g>
+
+</symbol></svg>
+  </div>
+  <header class="page-header">
+    <div class="page-header__wrap-total">
+      <nav class="page-header__main-nav main-nav main-nav--opened main-nav--nojs">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__menu-list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#about">О нас
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#types">Виды велосипедов
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#video">Видео про велосипеды
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#contacts">Контакты
+              <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="page-header__action-wrap">
+        <div class="page-header__slogan-wrap">
+          <a class="page-header__logo"><img src="img/logo.svg" width="68" height="20" alt="логотип"></a>
+          <div class="page-header__slogan">Мы продаем велосипеды</div>
+          <div class="page-header__text">Наш магазин отбирает только самые лучшие велосипеды для продажи</div>
+        </div>
+        <div class="page-header__form">
+          <form action="#" method="get">
+            <p>Заполните поля ниже и мы подберем велосипед Вашей мечты</p>
+            <input type="text" placeholder="Введите Ваше Имя" name="name" id="name" required="">
+            <label class="visually-hidden" for="name">Имя</label>
+            <input type="tel" placeholder="Введите Ваш номер телефона" name="phone" id="phone" pattern="[\+0-9\s]{10,16}" required="">
+            <label class="visually-hidden" for="phone">Телефон</label>
+            <button type="submit">Подобрать велосипед мечты</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script src="js/script.js"></script>
 </body>
 </html>
