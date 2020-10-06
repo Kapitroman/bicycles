@@ -21,12 +21,12 @@
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-nav__menu-list">
           <li class="main-nav__item">
-            <a class="main-nav__link" href="#about">О нас
+            <a class="main-nav__link" href="#features">О нас
               <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
             </a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="#types">Виды велосипедов
+            <a class="main-nav__link" href="#bicycles">Виды велосипедов
               <svg class="main-nav__icon" width="25" height="25" focusable="false"><use xlink:href="#icon-arrow"></use></svg>
             </a>
           </li>
@@ -62,7 +62,7 @@
     </div>
   </header>
   <main>
-    <section class="features">
+    <section id="features" class="features">
       <h2>Несколько фактов о нас</h2>
       <ul class="features__list">
         <li class="features__item"><div>01</div><p>Самый широкий выбор велосипедов!</p></li>
@@ -70,6 +70,44 @@
         <li class="features__item"><div>03</div><p>Большой выбор крутых аксессуаров!</p></li>
         <li class="features__item"><div>04</div><p>Профессиональные консультации!</p></li>
       </ul>
+    </section>
+    <section id="bicycles" class="bicycles">
+      <div class="bicycles__wrap">
+        <h2>Виды велосипедов</h2>
+        <ul class="bicycles__list">
+          <li class="bicycles__item bicycles__item--road">
+            <picture>
+              <source type="image/webp" media="(max-width: 768px)" srcset="img/road-bike-tablet@1x.webp 1x, img/road-bike-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/road-bike-desktop@1x.webp 1x, img/road-bike-desktop@2x.webp 2x">
+              <source media="(max-width: 768px)" srcset="img/road-bike-tablet@1x.jpg 1x, img/road-bike-tablet@2x.jpg 2x">
+              <img src="img/road-bike-desktop@1x.jpg" srcset="img/road-bike-desktop@2x.jpg 2x" alt="Дорожный велосипед">
+            </picture>
+            <p>Дорожный велосипед</p>
+            <svg width="180" height="180" focusable="false"><use xlink:href="#icon-circle"></use></svg>
+          </li>
+          <li class="bicycles__item bicycles__item--rock">
+            <picture>
+              <source type="image/webp" media="(max-width: 768px)" srcset="img/rock-bike-tablet@1x.webp 1x, img/rock-bike-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/rock-bike-desktop@1x.webp 1x, img/rock-bike-desktop@2x.webp 2x">
+              <source media="(max-width: 768px)" srcset="img/rock-bike-tablet@1x.jpg 1x, img/rock-bike-tablet@2x.jpg 2x">
+              <img src="img/rock-bike-desktop@1x.jpg" srcset="img/rock-bike-desktop@2x.jpg 2x" alt="Горный велосипед">
+            </picture>
+            <p>Горный велосипед</p>
+            <svg width="47" height="47" focusable="false"><use xlink:href="#icon-square"></use></svg>
+            <svg width="47" height="47" focusable="false"><use xlink:href="#icon-square"></use></svg>
+          </li>
+          <li class="bicycles__item bicycles__item--child">
+            <picture>
+              <source type="image/webp" media="(max-width: 768px)" srcset="img/child-bike-tablet@1x.webp 1x, img/child-bike-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/child-bike-desktop@1x.webp 1x, img/child-bike-desktop@2x.webp 2x">
+              <source media="(max-width: 768px)" srcset="img/child-bike-tablet@1x.jpg 1x, img/child-bike-tablet@2x.jpg 2x">
+              <img src="img/child-bike-desktop@1x.jpg" srcset="img/child-bike-desktop@2x.jpg 2x" alt="Детский велосипед">
+            </picture>
+            <p>Детский велосипед</p>
+            <svg width="95" height="95" focusable="false"><use xlink:href="#icon-circle"></use></svg>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer class="page-footer">

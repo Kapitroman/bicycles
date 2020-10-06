@@ -1,0 +1,146 @@
+.bicycles {
+  background-color: #f6f7f9;
+}
+
+.bicycles__wrap {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 107px;
+}
+
+.bicycles__wrap h2 {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+.bicycles__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 0;
+  list-style: none;
+}
+
+.bicycles__item {
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+.bicycles__item--road {
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.bicycles__item--rock {
+  margin-top: 40px;
+}
+
+.bicycles__item--road svg {
+  position: absolute;
+  top: 156px;
+  left: -60px;
+  fill: none;
+  z-index: -1;
+}
+
+.bicycles__item--rock svg:nth-of-type(1) {
+  position: absolute;
+  top: -18px;
+  left: -19px;
+  fill: none;
+}
+
+.bicycles__item--rock svg:nth-of-type(2) {
+  position: absolute;
+  bottom: 33px;
+  right: -23px;
+  fill: none;
+}
+
+.bicycles__item--child svg {
+  position: absolute;
+  top: -32px;
+  right: -36px;
+  fill: none;
+}
+
+.bicycles__item img {
+  display: block;
+  border-radius: 10px;
+}
+
+.bicycles__item p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .bicycles__wrap {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .bicycles__wrap h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 41px;
+  }
+
+  .bicycles__item,
+  .bicycles__item--road,
+  .bicycles__item--rock {
+    margin-top: 0;
+  }
+
+  .bicycles__item--road svg {
+    width: 127px;
+    height: 127px;
+    top: 201px;
+    left: -37px;
+  }
+
+  .bicycles__item--rock svg {
+    display: none;
+  }
+
+  .bicycles__item--child svg {
+    width: 68px;
+    height: 68px;
+    top: -20px;
+    right: -25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bicycles__wrap {
+    padding-bottom: 10px;
+  }
+
+  .bicycles__item {
+    margin-bottom: 40px;
+  }
+
+  .bicycles__item--road svg {
+    left: -24px;
+  }
+
+  .bicycles__item--child svg {
+    right: -15px;
+  }
+}
