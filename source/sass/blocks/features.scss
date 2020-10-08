@@ -1,5 +1,4 @@
 .features {
-  /*max-width: 1204px;*/
   width: 100%;
   margin: 0 auto;
   padding-top: 150px;
@@ -33,7 +32,8 @@
   margin-bottom: 40px;
 }
 
-.features__item div {
+.features__item span {
+  display: block;
   margin-bottom: 18px;
   font-size: 28px;
   font-style: normal;

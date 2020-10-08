@@ -22,7 +22,7 @@
 
 .video__wrap p {
   margin: 0 auto;
-  width: 340px;
+  max-width: 340px;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -60,7 +60,9 @@
   }
 
   .video__wrap p {
-    width: 429px;
+    max-width: 459px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .video__link {
@@ -87,6 +89,8 @@
 
   .video__wrap p {
     width: 288px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .video__link {

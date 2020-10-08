@@ -4,14 +4,13 @@
   background-color: #0e0e0e;
   background-image: url("../img/hero-desktop@1x.jpg");
   background-repeat: no-repeat;
-  background-size: auto auto;
+  background-size: cover;
   background-position-x: 50%;
 
   @media (min-resolution: 144dpi),
     (min-resolution: 1.5dppx) {
     .page-header {
       background-image: url("../img/hero-desktop@2x.jpg");
-      background-size: 1440px auto;
     }
   }
 }
@@ -44,6 +43,7 @@
 }
 
 .page-header__slogan {
+  margin: 0;
   margin-bottom: 24px;
   font-size: 46px;
   font-weight: 700;
@@ -53,6 +53,7 @@
 }
 
 .page-header__text {
+  margin: 0;
   font-size: 20px;
   font-weight: 300;
   line-height: 32px;
@@ -109,6 +110,7 @@
   min-height: 51px;
   width: 327px;
   border-radius: 4px;
+  border: none;
   font-size: 15px;
   font-weight: 600;
   line-height: 21px;
