@@ -89,13 +89,13 @@
   line-height: 32px;
 }
 
-a[href^="mailto:"] svg {
+.contacts__icon-mail {
   position: absolute;
   left: 10px;
   top: 2px;
 }
 
-a[href^="tel:"] svg {
+.contacts__icon-phone {
   position: absolute;
   left: 10px;
   top: 5px;
