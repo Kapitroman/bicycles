@@ -205,7 +205,8 @@
 
   .page-header__form input {
     height: 48px;
-    width: 319px;
+    max-width: 321px;
+    width: 100%;
     margin-bottom: 20px;
     border-radius: 4px;
     padding-left: 21px;
@@ -223,7 +224,8 @@
 
   .page-header__form button {
     height: 51px;
-    width: 319px;
+    max-width: 321px;
+    width: 100%;
     border-radius: 4px;
     font-size: 15px;
     font-weight: 600;

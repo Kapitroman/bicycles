@@ -293,7 +293,8 @@ img {
     color: #000000; }
   .page-header__form input {
     height: 48px;
-    width: 319px;
+    max-width: 321px;
+    width: 100%;
     margin-bottom: 20px;
     border-radius: 4px;
     padding-left: 21px;
@@ -335,7 +336,8 @@ img {
     color: #1c1c1c; }
   .page-header__form button {
     height: 51px;
-    width: 319px;
+    max-width: 321px;
+    width: 100%;
     border-radius: 4px;
     font-size: 15px;
     font-weight: 600;
@@ -548,6 +550,14 @@ img {
   margin-left: auto;
   margin-right: auto; }
 
+.contacts__map-image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center -15px;
+     object-position: center -15px;
+  margin-bottom: -20px; }
+
 .contacts__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -619,6 +629,13 @@ img {
     padding-right: 10px; }
   .contacts__map-image {
     max-width: 698px; }
+  .contacts__map-image img {
+    width: 100%;
+    -o-object-fit: none;
+       object-fit: none;
+    -o-object-position: 0 0;
+       object-position: 0 0;
+    margin-bottom: 0; }
   .contacts__wrap {
     margin-top: 7px; } }
 
@@ -833,6 +850,17 @@ img {
   .bicycles__item--road,
   .bicycles__item--rock {
     margin-top: 0; }
+  .bicycles__item img {
+    width: 270px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .bicycles__item--rock img {
+    -o-object-position: 0 -60px;
+       object-position: 0 -60px; }
+  .bicycles__item--child img {
+    -o-object-position: 0 -90px;
+       object-position: 0 -90px; }
   .bicycles__item--road svg {
     width: 127px;
     height: 127px;
@@ -903,6 +931,7 @@ img {
 
 @media (max-width: 768px) {
   .video__wrap {
+    max-width: 503px;
     margin-bottom: 85px;
     padding-top: 70px; }
   .video__wrap h2 {
@@ -923,6 +952,7 @@ img {
 
 @media (max-width: 320px) {
   .video__wrap {
+    max-width: 288px;
     margin-bottom: 48px;
     padding-top: 84px; }
   .video__wrap p {

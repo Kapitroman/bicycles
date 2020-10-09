@@ -51,6 +51,7 @@
 
 @media (max-width: 768px) {
   .video__wrap {
+    max-width: 503px;
     margin-bottom: 85px;
     padding-top: 70px;
   }
@@ -83,6 +84,7 @@
 
 @media (max-width: 320px) {
   .video__wrap {
+    max-width: 288px;
     margin-bottom: 48px;
     padding-top: 84px;
   }
