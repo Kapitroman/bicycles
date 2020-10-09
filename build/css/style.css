@@ -9,6 +9,7 @@ html {
           box-sizing: inherit; }
 
 body {
+  margin: 0;
   min-width: 320px;
   font-family: "Open Sans", "Verdana", sans-serif;
   font-style: normal; }
