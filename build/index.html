@@ -82,6 +82,7 @@
     </div>
   </header>
   <main>
+    <h1 class="visually-hidden">Продажа велосипедов</h1>
     <section id="features" class="features">
       <h2>Несколько фактов о нас</h2>
       <ol class="features__list">
@@ -98,7 +99,7 @@
           <li class="bicycles__item bicycles__item--road">
             <picture>
               <source type="image/webp" srcset="img/road-bike-desktop@1x.webp 1x, img/road-bike-desktop@2x.webp 2x">
-              <!-- 1х: 342px; 2x: 684px -->
+
               <img src="img/road-bike-desktop@1x.jpg" srcset="img/road-bike-desktop@2x.jpg 2x" alt="Дорожный велосипед">
             </picture>
             <p>Дорожный велосипед</p>
@@ -107,7 +108,7 @@
           <li class="bicycles__item bicycles__item--rock">
             <picture>
               <source type="image/webp" srcset="img/rock-bike-desktop@1x.webp 1x, img/rock-bike-desktop@2x.webp 2x">
-              <!-- 1х: 342px; 2x: 684px -->
+
               <img src="img/rock-bike-desktop@1x.jpg" srcset="img/rock-bike-desktop@2x.jpg 2x" alt="Горный велосипед">
             </picture>
             <p>Горный велосипед</p>
@@ -117,7 +118,7 @@
           <li class="bicycles__item bicycles__item--child">
             <picture>
               <source type="image/webp" srcset="img/child-bike-desktop@1x.webp 1x, img/child-bike-desktop@2x.webp 2x">
-              <!-- 1х: 342px; 2x: 684px -->
+
               <img src="img/child-bike-desktop@1x.jpg" srcset="img/child-bike-desktop@2x.jpg 2x" alt="Детский велосипед">
             </picture>
             <p>Детский велосипед</p>
@@ -128,16 +129,18 @@
     </section>
     <section id="video" class="video">
       <div class="video__wrap">
-      <h2>Видео про велосипеды</h2>
-      <p>В этом видео мы подробно расскажем про особенности выбора велосипеда для себя. </p>
-      <a href="#" class="video__link">
-        <picture>
-          <source type="image/webp" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
-          <!-- 1х: 929px; 2x: 1858px -->
-          <img src="img/video-desktop@1x.jpg" srcset="img/video-desktop@2x.jpg 2x" alt="видео обзор велосипедов">
-        </picture>
-        <svg width="65" height="65" focusable="false"><use xlink:href="#icon-play"></use></svg>
-      </a>
+        <h2>Видео про велосипеды</h2>
+        <p>В этом видео мы подробно расскажем про особенности выбора велосипеда для себя. </p>
+        <div class="video__picture">
+          <picture>
+            <source type="image/webp" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
+
+            <img src="img/video-desktop@1x.jpg" srcset="img/video-desktop@2x.jpg 2x" alt="видео обзор велосипедов">
+          </picture>
+          <a href="#" class="video__link">
+            <svg width="65" height="65" focusable="false"><use xlink:href="#icon-play"></use></svg>
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -152,7 +155,7 @@
           <div id="map" class="contacts__internet-map"></div>
           <picture>
             <source type="image/webp" srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
-            <!-- 1х: 698px; 2x: 1396px -->
+
             <img src="img/map-tabletp@1x.png" srcset="img/map-tablet@2x.png 2x" alt="адрес на карте Санкт-Петербург, ул. Большая Конюшенная, д. 19">
           </picture>
         </div>
@@ -169,6 +172,7 @@
       </div>
     </section>
   </footer>
+
   <script src="js/vendor.js"></script>
   <script src="js/main.js"></script>
 </body>

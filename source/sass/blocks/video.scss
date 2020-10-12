@@ -30,13 +30,19 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+.video__picture {
+  position: relative;
+  margin-top: -42px;
+  top: 98px;
+}
+/*
 .video__link {
   display: block;
   position: relative;
   margin-top: -42px;
   top: 98px;
 }
-
+*/
 .video__link svg {
   position: absolute;
   top: 50%;
@@ -66,7 +72,7 @@
     padding-right: 15px;
   }
 
-  .video__link {
+  .video__picture {
     margin-top: -45px;
     top: 85px;
   }
@@ -95,7 +101,7 @@
     padding-right: 0;
   }
 
-  .video__link {
+  .video__picture {
     margin-top: -50px;
     top: 49px;
   }

@@ -78,7 +78,7 @@ img {
           flex-direction: column;
   max-width: 918px;
   padding-left: 22px;
-  padding-right: 22px;
+  padding-right: 14px;
   width: 100%;
   margin: 0 auto; }
 
@@ -106,7 +106,7 @@ img {
 
 .page-header__logo {
   display: block;
-  margin-bottom: 31px; }
+  margin-bottom: 25px; }
 
 .page-header__slogan {
   margin: 0;
@@ -138,6 +138,7 @@ img {
 
 .page-header__form p {
   margin: 0;
+  margin-top: 4px;
   margin-bottom: 20px;
   font-size: 17px;
   font-weight: 600;
@@ -251,6 +252,8 @@ img {
     width: 100%;
     background-image: url("../img/hero-tablet@1x.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
     background-color: #0e0e0e; } }
 
 @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 768px) and (min-resolution: 144dpi), (max-width: 768px) and (min-resolution: 1.5dppx) {
@@ -262,7 +265,7 @@ img {
   .page-header__logo {
     margin-top: 24px;
     margin-left: 21px;
-    margin-bottom: 87px; }
+    margin-bottom: 84px; }
   .page-header__slogan {
     width: 80%;
     margin-left: auto;
@@ -273,23 +276,24 @@ img {
     font-weight: 700;
     line-height: 42px; }
   .page-header__text {
-    width: 65%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 79px;
+    margin-bottom: 80px;
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
     text-align: center; }
   .page-header__form form {
     width: 320px;
-    margin-top: 70px;
+    margin-top: 67px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 35px; }
   .page-header__form p {
     margin-bottom: 30px;
-    font-size: 17px;
+    font-size: 17.5px;
+    letter-spacing: 0.0005em;
     color: #000000; }
   .page-header__form input {
     height: 48px;
@@ -367,9 +371,10 @@ img {
     width: 288px;
     margin-bottom: 71px; }
   .page-header__form form {
-    width: 288px; }
+    width: 288px;
+    margin-top: 65px; }
   .page-header__form p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 18px;
     color: #000000; }
   .page-header__form input {
@@ -912,12 +917,19 @@ img {
   letter-spacing: -0.005em;
   color: rgba(255, 255, 255, 0.7); }
 
-.video__link {
-  display: block;
+.video__picture {
   position: relative;
   margin-top: -42px;
   top: 98px; }
 
+/*
+.video__link {
+  display: block;
+  position: relative;
+  margin-top: -42px;
+  top: 98px;
+}
+*/
 .video__link svg {
   position: absolute;
   top: 50%;
@@ -940,7 +952,7 @@ img {
     max-width: 459px;
     padding-left: 15px;
     padding-right: 15px; }
-  .video__link {
+  .video__picture {
     margin-top: -45px;
     top: 85px; }
   .video__link svg {
@@ -959,7 +971,7 @@ img {
     width: 288px;
     padding-left: 0;
     padding-right: 0; }
-  .video__link {
+  .video__picture {
     margin-top: -50px;
     top: 49px; }
   .video__link svg {
