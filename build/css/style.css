@@ -258,8 +258,7 @@ img {
 
 @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 768px) and (min-resolution: 144dpi), (max-width: 768px) and (min-resolution: 1.5dppx) {
   .page-header__slogan-wrap {
-    background-image: url("../img/hero-tablet@2x.jpg");
-    background-size: 767px auto; } }
+    background-image: url("../img/hero-tablet@2x.jpg"); } }
 
 @media (max-width: 768px) {
   .page-header__logo {
@@ -358,8 +357,7 @@ img {
 
 @media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 320px) and (min-resolution: 144dpi), (max-width: 320px) and (min-resolution: 1.5dppx) {
   .page-header__slogan-wrap {
-    background-image: url("../img/hero-mobile@2x.jpg");
-    background-size: 320px auto; } }
+    background-image: url("../img/hero-mobile@2x.jpg"); } }
 
 @media (max-width: 320px) {
   .page-header__logo {
@@ -399,7 +397,7 @@ img {
   margin-top: 0;
   margin-bottom: 256px;
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 2px;
   padding-top: 21px;
   padding-bottom: 9px;
   list-style: none;
@@ -518,12 +516,11 @@ img {
   width: 100%;
   max-width: 957px;
   margin: 0 auto;
-  padding-top: 150px;
-  padding-bottom: 84px; }
+  padding-top: 150px; }
 
 .contacts h2 {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
@@ -537,6 +534,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  padding-right: 10px;
   font-size: 17px;
   font-weight: 400;
   line-height: 31px;
@@ -547,7 +545,7 @@ img {
   position: absolute;
   left: 0;
   top: 0;
-  bottom: 0;
+  bottom: 220px;
   right: 0; }
 
 .contacts__map-image {
@@ -556,12 +554,13 @@ img {
   margin-right: auto; }
 
 .contacts__map-image img {
+  display: block;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center -15px;
-     object-position: center -15px;
-  margin-bottom: -20px; }
+  -o-object-position: center -220px;
+     object-position: center -220px;
+  margin-bottom: -220px; }
 
 .contacts__wrap {
   display: -webkit-box;
@@ -626,7 +625,8 @@ img {
     padding-top: 70px;
     padding-bottom: 38px; }
   .contacts h2 {
-    font-size: 24px; }
+    font-size: 24px;
+    margin-bottom: 18px; }
   .contacts p {
     width: 100%;
     margin-bottom: 20px;
@@ -638,9 +638,11 @@ img {
     width: 100%;
     -o-object-fit: none;
        object-fit: none;
-    -o-object-position: 0 0;
-       object-position: 0 0;
+    -o-object-position: center center;
+       object-position: center center;
     margin-bottom: 0; }
+  .contacts__internet-map {
+    bottom: 0; }
   .contacts__wrap {
     margin-top: 7px; } }
 
@@ -654,35 +656,38 @@ img {
 
 @media (max-width: 320px) {
   .contacts {
+    padding-top: 73px;
     padding-bottom: 26px; }
   .contacts h2 {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 20px; }
   .contacts p {
     width: 288px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px; }
   .contacts__map-image {
     -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); }
   .contacts__wrap {
-    margin-top: 18px; }
+    margin-top: 20px; }
   .contacts__wrap a[href^="mailto:"] {
-    margin-right: 21px; } }
+    margin-right: 10px; } }
 
 .features {
   width: 100%;
   margin: 0 auto;
   padding-top: 150px;
-  padding-bottom: 91px; }
+  padding-bottom: 94px; }
 
 .features h2 {
   margin: 0;
-  padding-bottom: 50px;
+  padding-left: 21px;
+  padding-bottom: 35px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
-  letter-spacing: -0.5%;
+  letter-spacing: -0.005em;
   color: #1f1f1f;
   text-align: center; }
 
@@ -710,7 +715,7 @@ img {
 
 .features__item span {
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -722,6 +727,7 @@ img {
 .features__item p {
   margin: 0;
   padding: 0;
+  padding-left: 5px;
   font-size: 22px;
   font-weight: 400;
   line-height: 34px;
@@ -733,9 +739,10 @@ img {
   .features {
     max-width: 586px;
     padding-top: 35px;
-    padding-bottom: 30px; }
+    padding-bottom: 16px; }
   .features h2 {
-    padding-bottom: 30px;
+    padding-left: 2px;
+    padding-bottom: 19px;
     font-size: 24px;
     line-height: 38px; }
   .features__list {
@@ -744,20 +751,26 @@ img {
   .features__item {
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  .features__item p {
+    padding-left: 0; } }
 
 @media (max-width: 320px) {
   .features {
-    padding-bottom: 22px; }
+    padding-bottom: 10px; }
   .features h2 {
-    padding-bottom: 19px;
+    padding-bottom: 18px;
     font-size: 24px; }
   .features__item {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 48px; }
+    margin-bottom: 56px; }
+  .features__item--choice {
+    margin-bottom: 32px; }
+  .features__item span {
+    margin-bottom: 11px; }
   .features__item p {
-    font-size: 22px; } }
+    font-size: 18px; } }
 
 .bicycles {
   background-color: #f6f7f9; }
@@ -765,11 +778,12 @@ img {
 .bicycles__wrap {
   margin: 0 auto;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 107px; }
+  padding-top: 129px;
+  padding-bottom: 84px; }
 
 .bicycles__wrap h2 {
-  margin-bottom: 50px;
+  margin-bottom: 49px;
+  padding-right: 10px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
@@ -790,6 +804,8 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0;
+  padding-left: 28px;
+  padding-right: 28px;
   list-style: none; }
 
 .bicycles__item {
@@ -799,11 +815,12 @@ img {
   margin-bottom: 50px; }
 
 .bicycles__item--road {
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-left: 50px;
   z-index: 1; }
 
 .bicycles__item--rock {
-  margin-top: 40px; }
+  margin-top: 37px; }
 
 .bicycles__item--road svg {
   position: absolute;
@@ -826,8 +843,8 @@ img {
 
 .bicycles__item--child svg {
   position: absolute;
-  top: -32px;
-  right: -36px;
+  top: -34px;
+  right: -38px;
   fill: none; }
 
 .bicycles__item img {
@@ -845,16 +862,22 @@ img {
 
 @media (max-width: 768px) {
   .bicycles__wrap {
-    padding-top: 50px;
-    padding-bottom: 20px; }
+    padding-top: 30px;
+    padding-bottom: 4px;
+    padding-left: 0; }
   .bicycles__wrap h2 {
     margin-bottom: 30px;
+    padding-right: 0;
     font-size: 24px;
     line-height: 41px; }
+  .bicycles__list {
+    padding: 0; }
   .bicycles__item,
   .bicycles__item--road,
   .bicycles__item--rock {
     margin-top: 0; }
+  .bicycles__item--road {
+    margin-left: 25px; }
   .bicycles__item img {
     width: 270px;
     height: 300px;
@@ -881,9 +904,11 @@ img {
 
 @media (max-width: 320px) {
   .bicycles__wrap {
-    padding-bottom: 10px; }
+    padding-bottom: 0; }
   .bicycles__item {
     margin-bottom: 40px; }
+  .bicycles__item--rock {
+    margin-bottom: 42px; }
   .bicycles__item--road svg {
     left: -24px; }
   .bicycles__item--child svg {
@@ -902,6 +927,7 @@ img {
 .video__wrap h2 {
   margin: 0;
   margin-bottom: 20px;
+  padding-right: 5px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
@@ -911,6 +937,7 @@ img {
 .video__wrap p {
   margin: 0 auto;
   max-width: 340px;
+  padding-left: 10px;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -919,17 +946,10 @@ img {
 
 .video__picture {
   position: relative;
-  margin-top: -42px;
-  top: 98px; }
-
-/*
-.video__link {
-  display: block;
-  position: relative;
-  margin-top: -42px;
+  margin-top: -45px;
   top: 98px;
-}
-*/
+  left: 0; }
+
 .video__link svg {
   position: absolute;
   top: 50%;
@@ -953,8 +973,9 @@ img {
     padding-left: 15px;
     padding-right: 15px; }
   .video__picture {
-    margin-top: -45px;
-    top: 85px; }
+    margin-top: -50px;
+    top: 87px;
+    left: 0; }
   .video__link svg {
     width: 95px;
     height: 95px; }
@@ -966,14 +987,18 @@ img {
   .video__wrap {
     max-width: 288px;
     margin-bottom: 48px;
-    padding-top: 84px; }
+    padding-top: 84px;
+    padding-bottom: 45px; }
+  .video__wrap h2 {
+    margin-left: -10px;
+    padding-right: 0; }
   .video__wrap p {
     width: 288px;
     padding-left: 0;
     padding-right: 0; }
   .video__picture {
     margin-top: -50px;
-    top: 49px; }
+    top: 100px; }
   .video__link svg {
     width: 65px;
     height: 65px; }
