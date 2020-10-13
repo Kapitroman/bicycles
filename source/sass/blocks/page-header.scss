@@ -81,12 +81,16 @@
 }
 
 .page-header__form input {
-  height: 48px;
+  min-height: 48px;
   width: 327px;
   margin-bottom: 20px;
   border-radius: 4px;
   padding-left: 30px;
-  padding-top: 11px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
   border: 1px solid #c9ccd4;
 }
 
