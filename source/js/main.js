@@ -18,16 +18,3 @@
     }
   });
 })();
-
-(function () {
-  ymaps.ready(init);
-
-  function init() {
-    var myMap = new ymaps.Map('map', {
-      center: [59.93862518, 30.32290403],
-      zoom: 16,
-      controls: []
-    },
-    {suppressMapOpenBlock: true});
-  }
-})();

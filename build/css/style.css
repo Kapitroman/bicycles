@@ -546,11 +546,10 @@ img {
   text-align: center;
   color: rgba(0, 0, 0, 0.7); }
 
-.contacts__internet-map {
+.contacts__map-image iframe {
+  display: block;
   position: absolute;
   left: 0;
-  top: 0;
-  bottom: 0;
   right: 0; }
 
 .contacts__map-image {
@@ -640,6 +639,8 @@ img {
     max-width: 698px;
     height: auto;
     max-height: 545px; }
+  .contacts__map-image iframe {
+    height: 545px; }
   .contacts__wrap {
     margin-top: 7px; } }
 
@@ -666,6 +667,8 @@ img {
   .contacts__map-image {
     -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); }
+  .contacts__map-image iframe {
+    height: 250px; }
   .contacts__wrap {
     margin-top: 20px; }
   .contacts__wrap a[href^="mailto:"] {
