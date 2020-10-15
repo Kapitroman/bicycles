@@ -2,13 +2,14 @@
   width: 100%;
   max-width: 957px;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 154px;
   padding-bottom: 84px;
 }
 
 .contacts h2 {
   margin: 0;
   margin-bottom: 28px;
+  padding-right: 6px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
@@ -23,7 +24,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  padding-right: 10px;
+  padding-right: 12px;
   font-size: 17px;
   font-weight: 400;
   line-height: 31px;
@@ -78,12 +79,12 @@
 
 .contacts__wrap a[href^="mailto:"] {
   width: 288px;
-  margin-right: 70px;
+  margin-right: 73px;
   margin-left: auto;
   margin-top: 13px;
   margin-bottom: 13px;
-  padding-left: 51px;
-  padding-right: 10px;
+  padding-left: 54px;
+  padding-right: 16px;
   line-height: 22px;
 }
 
@@ -92,8 +93,8 @@
   margin-right: auto;
   margin-top: 9px;
   margin-bottom: 9px;
-  padding-left: 48px;
-  padding-right: 10px;
+  padding-left: 47px;
+  padding-right: 20px;
   line-height: 32px;
 }
 
@@ -112,18 +113,19 @@
 
 @media (max-width: 768px) {
   .contacts {
-    padding-top: 70px;
+    padding-top: 68px;
     padding-bottom: 38px;
   }
 
   .contacts h2 {
     font-size: 24px;
     margin-bottom: 18px;
+    padding-right: 0;
   }
 
   .contacts p {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -186,6 +188,6 @@
   }
 
   .contacts__wrap a[href^="mailto:"] {
-    margin-right: 10px;
+    margin-right: 15px;
   }
 }

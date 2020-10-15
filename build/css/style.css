@@ -77,8 +77,8 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 918px;
-  padding-left: 22px;
-  padding-right: 14px;
+  padding-left: 20px;
+  padding-right: 18px;
   width: 100%;
   margin: 0 auto; }
 
@@ -106,11 +106,11 @@ img {
 
 .page-header__logo {
   display: block;
-  margin-bottom: 25px; }
+  margin-bottom: 24px; }
 
 .page-header__slogan {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   font-size: 46px;
   font-weight: 700;
   line-height: 64px;
@@ -410,7 +410,7 @@ img {
 .main-nav__link {
   display: block;
   padding-left: 21px;
-  padding-right: 21px;
+  padding-right: 24px;
   font-size: 16px;
   font-weight: 300;
   line-height: 32px;
@@ -520,12 +520,13 @@ img {
   width: 100%;
   max-width: 957px;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 154px;
   padding-bottom: 84px; }
 
 .contacts h2 {
   margin: 0;
   margin-bottom: 28px;
+  padding-right: 6px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
@@ -539,7 +540,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  padding-right: 10px;
+  padding-right: 12px;
   font-size: 17px;
   font-weight: 400;
   line-height: 31px;
@@ -595,12 +596,12 @@ img {
 
 .contacts__wrap a[href^="mailto:"] {
   width: 288px;
-  margin-right: 70px;
+  margin-right: 73px;
   margin-left: auto;
   margin-top: 13px;
   margin-bottom: 13px;
-  padding-left: 51px;
-  padding-right: 10px;
+  padding-left: 54px;
+  padding-right: 16px;
   line-height: 22px; }
 
 .contacts__wrap a[href^="tel:"] {
@@ -608,8 +609,8 @@ img {
   margin-right: auto;
   margin-top: 9px;
   margin-bottom: 9px;
-  padding-left: 48px;
-  padding-right: 10px;
+  padding-left: 47px;
+  padding-right: 20px;
   line-height: 32px; }
 
 .contacts__icon-mail {
@@ -625,14 +626,15 @@ img {
 
 @media (max-width: 768px) {
   .contacts {
-    padding-top: 70px;
+    padding-top: 68px;
     padding-bottom: 38px; }
   .contacts h2 {
     font-size: 24px;
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    padding-right: 0; }
   .contacts p {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     padding-left: 10px;
     padding-right: 10px; }
   .contacts__map-image {
@@ -672,7 +674,7 @@ img {
   .contacts__wrap {
     margin-top: 20px; }
   .contacts__wrap a[href^="mailto:"] {
-    margin-right: 10px; } }
+    margin-right: 15px; } }
 
 .features {
   width: 100%;
@@ -682,7 +684,7 @@ img {
 
 .features h2 {
   margin: 0;
-  padding-left: 21px;
+  padding-left: 20px;
   padding-bottom: 35px;
   font-size: 30px;
   font-weight: 600;
@@ -713,9 +715,12 @@ img {
   margin-right: 19px;
   margin-bottom: 40px; }
 
+.features__item--choice span {
+  margin-bottom: 17px; }
+
 .features__item span {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -727,7 +732,7 @@ img {
 .features__item p {
   margin: 0;
   padding: 0;
-  padding-left: 5px;
+  padding-left: 2px;
   font-size: 22px;
   font-weight: 400;
   line-height: 34px;
@@ -738,11 +743,11 @@ img {
 @media (max-width: 768px) {
   .features {
     max-width: 586px;
-    padding-top: 35px;
-    padding-bottom: 16px; }
+    padding-top: 37px;
+    padding-bottom: 14px; }
   .features h2 {
     padding-left: 2px;
-    padding-bottom: 19px;
+    padding-bottom: 18px;
     font-size: 24px;
     line-height: 38px; }
   .features__list {
@@ -752,6 +757,8 @@ img {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 40px; }
+  .features__item--choice span {
+    margin-bottom: 17px; }
   .features__item p {
     padding-left: 0; } }
 
@@ -767,6 +774,8 @@ img {
     margin-bottom: 56px; }
   .features__item--choice {
     margin-bottom: 32px; }
+  .features__item--choice span {
+    margin-bottom: 11px; }
   .features__item span {
     margin-bottom: 11px; }
   .features__item p {
@@ -778,11 +787,11 @@ img {
 .bicycles__wrap {
   margin: 0 auto;
   width: 100%;
-  padding-top: 129px;
+  padding-top: 128px;
   padding-bottom: 84px; }
 
 .bicycles__wrap h2 {
-  margin-bottom: 49px;
+  margin-bottom: 50px;
   padding-right: 10px;
   font-size: 30px;
   font-weight: 600;
@@ -920,14 +929,14 @@ img {
 .video__wrap {
   margin: 0 auto;
   margin-bottom: 98px;
-  padding-top: 120px;
+  padding-top: 121px;
   width: 100%;
   text-align: center; }
 
 .video__wrap h2 {
   margin: 0;
-  margin-bottom: 20px;
-  padding-right: 5px;
+  margin-bottom: 18px;
+  padding-right: 6px;
   font-size: 30px;
   font-weight: 600;
   line-height: 30px;
@@ -937,7 +946,7 @@ img {
 .video__wrap p {
   margin: 0 auto;
   max-width: 340px;
-  padding-left: 10px;
+  padding-left: 2px;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -946,8 +955,8 @@ img {
 
 .video__picture {
   position: relative;
-  margin-top: -45px;
-  top: 98px;
+  margin-top: -43px;
+  top: 102px;
   left: 0; }
 
 .video__link svg {
@@ -961,43 +970,49 @@ img {
   width: 85px;
   height: 85px; }
 
+.video__link:focus svg {
+  outline: 1px solid #00d9ff; }
+
 @media (max-width: 768px) {
   .video__wrap {
     max-width: 503px;
     margin-bottom: 85px;
     padding-top: 70px; }
   .video__wrap h2 {
-    font-size: 24px; }
+    font-size: 24px;
+    padding-left: 5px;
+    margin-bottom: 20px; }
   .video__wrap p {
     max-width: 459px;
     padding-left: 15px;
     padding-right: 15px; }
   .video__picture {
     margin-top: -50px;
-    top: 87px;
+    top: 89px;
     left: 0; }
   .video__link svg {
-    width: 95px;
-    height: 95px; }
+    width: 90px;
+    height: 90px; }
   .video__link svg:hover {
-    width: 110px;
-    height: 110px; } }
+    width: 105px;
+    height: 105px; } }
 
 @media (max-width: 320px) {
   .video__wrap {
     max-width: 288px;
     margin-bottom: 48px;
-    padding-top: 84px;
+    padding-top: 82px;
     padding-bottom: 45px; }
   .video__wrap h2 {
     margin-left: -10px;
-    padding-right: 0; }
+    padding-right: 0;
+    padding-left: 0; }
   .video__wrap p {
     width: 288px;
     padding-left: 0;
     padding-right: 0; }
   .video__picture {
-    margin-top: -50px;
+    margin-top: -48px;
     top: 100px; }
   .video__link svg {
     width: 65px;
